@@ -4,8 +4,6 @@
 
 #include "Stewardess.h"
 
-#include <cstdint>
-
 
 namespace Sentinel
 {

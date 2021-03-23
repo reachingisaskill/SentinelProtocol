@@ -11,7 +11,7 @@ namespace Sentinel
   // Static variables (unnamed namespace)
   namespace
   {
-////////// // Protocal command names
+////////// // Protocol command names
     const char* const ProtocolCommandNames[ ProtocolCommandSize ] = 
     {
       "null",
@@ -19,6 +19,7 @@ namespace Sentinel
       "connected",
       "request",
       "update",
+      "event",
       "authorize_request",
       "authorize_accept",
       "authorize_deny"

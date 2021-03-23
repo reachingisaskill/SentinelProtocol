@@ -8,9 +8,9 @@
 namespace Sentinel
 {
   ////////////////////////////////////////////////////////////////////////////////
-  // Defitintions for the protocol
+  // Definitions for the protocol
 
-  const size_t ProtocolCommandSize = 10;
+  const size_t ProtocolCommandSize = 9;
 
   enum class ProtocolCommand
   {
@@ -19,6 +19,7 @@ namespace Sentinel
     Connected,
     Request,
     Update,
+    Event,
     AuthorizeRequest,
     AuthorizeAccept,
     AuthorizeDeny

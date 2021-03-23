@@ -15,7 +15,7 @@ int main( int, char** )
     Serializer serialReceiver;
 
     std::cout << "Creating test payload" << std::endl;
-    Payload* test_payload = new Payload( 4897, ProtocolCommand::Acknowledge, "Hi there", "Chazz" );
+    Payload* test_payload = new Payload( 4897, ProtocolCommand::Alive, "Hi there", "Chazz" );
 
     std::cout << '\n' << test_payload->print() << '\n' << std::endl;
 

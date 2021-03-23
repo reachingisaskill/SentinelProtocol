@@ -16,11 +16,9 @@ namespace Sentinel
   {
     Null,
     Alive,
-    Acknowledge,
-    Deny,
+    Connected,
     Request,
     Update,
-    Event,
     AuthorizeRequest,
     AuthorizeAccept,
     AuthorizeDeny

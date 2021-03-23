@@ -16,11 +16,9 @@ namespace Sentinel
     {
       "null",
       "alive",
-      "acknowledge",
-      "deny",
+      "connected",
       "request",
       "update",
-      "event",
       "authorize_request",
       "authorize_accept",
       "authorize_deny"
